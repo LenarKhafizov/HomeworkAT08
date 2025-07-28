@@ -19,7 +19,7 @@ public class LoginTest {
     }
 
     @AfterEach
-    static void tearDown() {
+    void tearDown() {
         cleanAuthCodes();
     }
 
